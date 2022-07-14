@@ -1,0 +1,231 @@
+
+
+.photo-section{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+
+    img{
+        margin-top: 15px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .last-img-data{
+        text-align: left;
+        // width: 90%;
+        margin: 20px auto;
+
+        p{
+            font-size: 1.5rem;
+            padding: 30px;
+        }
+
+        .para-last{
+           margin: 20px 0;
+           padding: 0;
+
+           span{
+              font-weight: 500;
+              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           }
+        }
+
+        @media (max-width:740px) {
+
+            p{
+                padding: 20px;
+            }
+            
+        }
+    }
+
+    .icon{
+        width: 100%;
+        text-align: right;
+        padding: 30px 0;
+
+
+        a{  font-size: 1.5rem;
+            text-decoration: none;
+            color:var(--light-gray);
+            padding-right: 10px;
+            gap: 10px;
+        }
+        // .fa-twitter{
+        //     padding: 0 8px;
+        // }
+    }
+
+}
+
+
+
+.like-img-main{
+     width: 90%;
+     padding: 40px 0;
+     display: flex;
+     flex-direction: column;
+     background-color: #f5f5f5;
+     margin:  30px 0;
+
+     .para-div{
+        width: 77%;
+        margin: 15px auto;
+
+        p{
+            font-size: 1.5rem;
+            color:var(--light-gray);
+         }
+        
+     }
+   
+
+    .main-img-section{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+
+          .comman{
+               width: 30%;
+               margin: 0 auto;
+
+               img{
+                   background-repeat: no-repeat;
+                   width: 100%;
+               }
+
+               h1{
+                font-size: 2rem;
+                letter-spacing: 1px;
+                color: #5f5f5f;
+               }
+            }
+         }
+
+         @media (max-width:740px) {
+            .main-img-section{
+                display: block;
+
+        
+                  .comman{
+                       width: 100%;
+                       margin: 30px auto;
+
+                      
+                    }
+                }
+         }
+    
+     }
+
+    
+   
+     
+
+
+
+     .main-comment{
+          width: 90%;
+          margin: 40px auto;
+
+          h3{
+               margin: 0 0 16px 12px;
+               font-size: 1.5rem;
+               color: #d8d9cb;
+            }
+
+          .comment-img{
+               width: 100%;
+               display: flex;
+
+            //  .img-main{
+            //     width: 10%;
+            //     text-align: center;
+                img{
+                    width: 91px;
+                    background-size: cover;
+                   }
+    
+                  
+               .para-comments{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  margin-left: 25px;
+
+                  p{
+                    font-size: 1.5rem;
+                    font-family: system-ui;
+                  }
+                  .name-comment{
+                    color: #616161;
+                  }
+
+                  .main-commet{
+                       padding:8px 0;
+                       color: #959595;
+                  }
+                  
+                  
+                    .last-comment{
+                        color: var(--icon-color);
+                        padding-top: 5px;
+                     }
+               }
+
+
+               .input-dis{
+                  width: 90%;
+                .discussion{
+                    width: 100%;
+                    padding: 20px;
+                    font-size: 1.5rem;
+                    border: 1px solid var(--icon-color);;
+                    outline: none;
+                    border-radius: 5px;
+
+                  }
+               }
+          }
+
+          @media (max-width:415px) {
+
+            .comment-img{
+                display: block;
+                img{
+                    height: 120px;
+                    margin-bottom: 10px;
+                }
+    
+                .last-img{
+                     height: 100px;
+                }
+            }
+           
+       }
+     }
+
+
+     .contact-main{
+        width: 80%;
+        // display: flex;
+        text-align: right;
+        padding: 20px;
+        margin: 10px auto;
+
+
+        a{
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: var(--icon-color);
+        }
+
+        .fa{
+            margin-left: 15px;
+            color: var(--icon-color);
+        }
+   }
+    
+
+  

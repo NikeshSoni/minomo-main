@@ -1,0 +1,37 @@
+
+
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --light-gray:#c9c6c1;
+    --icon-color:#b8b3af;
+  }
+
+
+
+
+  .fa:hover{
+    color: #616161;
+    transition: .5s;
+}
+
+
+
+@media (max-width:740px) {
+       .responsive-width{
+             width: 85%;
+       }
+
+       .like-img-main{
+           width: 100%;
+       }
+       .responsive-width-para{
+          width: 85%;
+       }
+}
+
+
+
+
+
